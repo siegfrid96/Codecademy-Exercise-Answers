@@ -1,0 +1,51 @@
+1.
+		SELECT name, imdb_rating FROM movies;
+
+2.
+		SELECT DISTINCT genre FROM movies;
+
+3.
+		SELECT * FROM movies WHERE imdb_rating > 8;
+  
+4.
+		SELECT * FROM movies
+		WHERE name LIKE 'Se_en';
+
+5.
+		SELECT * FROM movies
+		WHERE name LIKE 'a%';
+
+		SELECT * FROM movies
+		WHERE name LIKE '%man%';
+
+6.
+		SELECT * FROM movies
+		WHERE name BETWEEN 'A' AND 'J';
+
+		SELECT * FROM movies
+		WHERE year BETWEEN 1990 AND 2000;
+
+7.
+		SELECT * FROM movies
+		WHERE year BETWEEN 1990 AND 2000
+		AND genre = 'comedy';
+
+8.
+		SELECT * FROM movies
+		WHERE genre = 'comedy'
+		OR year < 1980;
+
+9.
+		SELECT * FROM movies
+		ORDER BY imdb_rating DESC;
+
+10.
+		SELECT * FROM movies
+		ORDER BY imdb_rating ASC
+		LIMIT 3;
+
+11.
+		NO CODE NEEDED
+
+12.
+		NO CODE NEEDED
